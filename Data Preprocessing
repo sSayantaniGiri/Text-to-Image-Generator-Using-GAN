@@ -6,3 +6,5 @@ data.duplicated().sum()
 df = data.drop_duplicates(keep = False)
 print(df)
 df.drop(0)
+
+df.duplicated().sum()
