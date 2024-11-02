@@ -1,0 +1,8 @@
+data.rename(columns = {0:'image', 1: 'caption'}, inplace = True )
+print(data.columns)
+data.isna().sum()
+data.value_counts()
+data.duplicated().sum()
+df = data.drop_duplicates(keep = False)
+print(df)
+df.drop(0)
