@@ -1,0 +1,104 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: #333;
+ color: #fff;
+ padding: 10px 20px;
+}
+header .logo img {
+ width: 150px;
+}
+header nav ul {
+ list-style: none;
+ display: flex;
+gap: 20px;
+}
+header nav ul li {
+ display: inline;
+}
+header nav ul li a {
+ color: #fff;
+ text-decoration: none;
+}
+.hero {
+ text-align: center;
+ padding: 50px 20px;
+ background: #f4f4f4;
+}
+.hero h1 {
+ font-size: 3em;
+ margin-bottom: 10px;
+}
+.hero p {
+ font-size: 1.2em;
+margin-bottom: 20px;
+}
+.hero form {
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+}
+.hero form input {
+ width: 300px;
+ padding: 10px;
+ font-size: 1em;
+}
+.hero form button {
+ padding: 10px 20px;
+ font-size: 1em;
+ background: #333;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+}
+.features {
+padding: 50px 20px;
+}
+.features h2 {
+ text-align: center;
+ margin-bottom: 20px;
+}
+.feature-grid {
+ display: flex;
+ justify-content: space-around;
+ gap: 20px;
+}
+.feature {
+ text-align: center;
+ max-width: 300px;
+}
+.feature img {
+ width: 100%;
+ height: auto;
+}
+.generated-images {
+padding: 50px 20px;
+ background: #f4f4f4;
+}
+.generated-images h2 {
+ text-align: center;
+ margin-bottom: 20px;
+}
+#image-results {
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ flex-wrap: wrap;
+}
+#image-results img {
+ width: 300px;
+ height: auto;
+}
+footer {
+ text-align: center;
+ padding: 20px;
+ background: #333;
+color: #fff;
+}
